@@ -24,9 +24,9 @@ public class Zadanie {
     private Double koszt;
 
     @Column
-    private Boolean wykonane=false;
+    private Boolean wykonane = false;
 
-    protected Zadanie() {
+    public Zadanie() {
     }
 
     public Zadanie(String nazwa, String opis, Double koszt) {
